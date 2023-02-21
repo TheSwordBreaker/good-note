@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: RecoletaBlack;
+  font-display: swap;
+  src: url(https://fossheim.io/styles/fonts/recoleta/RecoletaBlack.woff2)
+      format("woff2"),
+    url(https://fossheim.io/styles/fonts/recoleta/RecoletaBlack.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: RecoletaSemiBold;
+  font-display: swap;
+  src: url(https://fossheim.io/styles/fonts/recoleta/RecoletaSemiBold.woff2)
+      format("woff2"),
+    url(https://fossheim.io/styles/fonts/recoleta/RecoletaSemiBold.woff)
+      format("woff");
+}
+
+@font-face {
+  font-family: RecoletaMedium;
+  font-display: swap;
+  src: url(https://fossheim.io/styles/fonts/recoleta/RecoletaMedium.woff2)
+      format("woff2"),
+    url(https://fossheim.io/styles/fonts/recoleta/RecoletaMedium.woff)
+      format("woff");
+}

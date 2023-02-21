@@ -6,6 +6,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
       files: ["*.ts", "*.tsx"],
+
       parserOptions: {
         project: "tsconfig.json",
       },
@@ -15,6 +16,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
+  files: ['*.ts', '*.tsx'],
   plugins: ["@typescript-eslint"],
   extends: ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   rules: {
